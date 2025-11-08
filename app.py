@@ -37,7 +37,7 @@ def read_root():
     """Root endpoint that returns a welcome message."""
     return {"message": "Calculator API is running. Use /add or /subtract endpoints."}
 
-@app.get("/add")
+@app.get("/add3")
 def add(a, b, c):
     """Add two numbers and return the result."""
     result = float(a) + float(b) + int(c)
